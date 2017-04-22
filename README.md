@@ -1,4 +1,7 @@
-# test coverage for  [browserify-css (v0.10.0)](http://cheton.github.io/browserify-css/)  [![npm package](https://img.shields.io/npm/v/npmtest-browserify-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-browserify-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-browserify-css.svg)](https://travis-ci.org/npmtest/node-npmtest-browserify-css)
+# npmtest-browserify-css
+
+#### basic test coverage for  [browserify-css (v0.10.0)](http://cheton.github.io/browserify-css/)  [![npm package](https://img.shields.io/npm/v/npmtest-browserify-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-browserify-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-browserify-css.svg)](https://travis-ci.org/npmtest/node-npmtest-browserify-css)
+
 #### A Browserify transform for bundling, rebasing, inlining, and minifying CSS files
 
 [![NPM](https://nodei.co/npm/browserify-css.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/browserify-css)
@@ -100,7 +103,8 @@
         "prepublish": "npm run build && npm test",
         "test": "gulp && node_modules/.bin/tap --coverage test/*.js"
     },
-    "version": "0.10.0"
+    "version": "0.10.0",
+    "bin": {}
 }
 ```
 
